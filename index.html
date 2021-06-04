@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Zeonee</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header_logo">Zeonee</div>
+                <nav class="nav">
+                    <a class="nav__link" href="#">About</a>
+                    <a class="nav__link" href="#">Service</a>
+                    <a class="nav__link" href="#">Work</a>
+                    <a class="nav__link" href="#">Blog</a>
+                    <a class="nav__link" href="#">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="intro">
+        <div class="container">
+            <div class="intro__innner">
+                <h2 class="intro_support_title">Site №1</h2>   
+                <h1 class="intro__title">Welcome to my site</h1>
+                <a class="btm" href="#">Learn More</a>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="container">
+                <div class="slider__inner">
+                    <div class="slider__item active">
+                        <span class="slider__number">01</span> Intro
+                    </div>
+                    <div class="slider__item">
+                        <span class="slider__number">02</span> Work
+                    </div>
+                    <div class="slider__item">
+                        <span class="slider__number">03</span> Abouts
+                    </div>
+                    <div class="slider__item">
+                        <span class="slider__number">04</span> Contacts
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="section">
+        <div class="container">
+            <div class="section__header">
+                <h3 class="section__suptitle">What i do?</h3>
+                <h2 class="section__title">Adout</h2>
+                <div class="section__text">
+                    <p>
+                        Hello, i'm web-developer and this site created by Zeonee.
+                        I from Russia and i know  CSS, HTML. ٩(｡•́‿•̀｡)۶
+                        This site is part of an experiment.
+                    </p>
+                </div>
+            </div>
+            <div class="about">
+                <div class="about__item">
+                    <div class="about__img">
+                        <img src="assets/images/devimg1.bmp" height="250" width="360" alt="">
+                    </div>
+                    <div class="about__text">workscreen \(◕‿◕)/</div>
+                </div>
+                <div class="about__item">
+                    <div class="about__img">
+                        <img src="assets/images/Screen-Shot-2016-12-28-at-8.57.35-AM.png" height="250" width="360" alt="">
+                    <div class="about__text">starwarslove (─‿‿─)</div>
+                    </div>
+                </div>
+                <div class="about__item">
+                    <div class="about__img">
+                        <img src="assets/images/unnamed.jpg" height="250" width="360" alt="">
+                    </div>
+                    <div class="about__text">it's me (≧▽≦)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div>
+        <canvas class="x-wing" id="c"></canvas>
+        <script>
+            window.b = document.body;
+            window.a = document.getElementsByTagName('canvas')[0];
+            window.c = window.a.getContext('2d');
+            window.d = document;
+            document.body.clientWidth;
+        </script>
+        <script src="js/app.js"></script>
+    </div>
+    <section class="section">
+        
+        <div class="container">
+            <div class="section__header">
+                <h3 class="section__suptitle">How to find me?</h3>
+                <h2 class="section__title">Contact</h2>
+            </div>
+            <div class="Contact">
+                <a href="https://github.com/Zewonee2600">
+                    <img class="Contact__img" src="data:image/png;base64,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" width="100" height="100" alt="https://github.com/Zewonee2600">
+                </a>
+                <div class="section__text">
+                    <p>
+                        This my git
+                    </p>
+                </div>
+                <iframe frameborder="0" style="border:none;width:100%;height:180px;" width="100%" height="180" src="https://music.yandex.ru/iframe/#track/720405/10485268">Слушайте <a href='https://music.yandex.ru/album/10485268/track/720405'>Escape (The Pina Colada Song)</a> — <a href='https://music.yandex.ru/artist/18025'>Rupert Holmes</a></iframe>
+                <h3 class="section__suptitle">The end.(◕‿◕)</h3>
+            </div>
+            
+        </div>
+    </section>
+</body>
+</html>
